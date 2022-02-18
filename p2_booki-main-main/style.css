@@ -389,69 +389,67 @@ footer {
 .row {
   display: flex;
 }
-/* -----------------format tablette--------------------------------------------------- */
+/* -----------------format tablette--------- */
 @media screen and (max-width: 768px) {
-  @media screen and (max-width: 768px) {
-    header {
-      justify-content: space-around;
-      margin-bottom: 10px;
-      border-bottom: 5px solid#f2f2f2;
-      height: auto;
-    }
-    .main{
-      padding: 30px;
-    }
-    .slogan{
-      padding: 30px;
-    }
-    .form_search{
-      justify-content: center;
-    }
-    .filt{
-      justify-content: center;
-    }
-    .titre_droite {
-      margin: 5px 5px;
-    
-  
-    }
-    .top-part {
-      flex-direction: column;
-      
-    }
-  
-    .gauche {
-      width: 100%;
-      margin: 10px auto;
-    }
-    .container{
-      flex-direction: row;
-    }
-    .gauche .image {
-    
-    }
-    .droite {
-      display: block;
-      width: 100%;
-      margin: 0;
-      background: none;
-    }
-    .droite .image{
-      margin: 10px auto;
-    }
-    .bas {
-   
-    }
-    #titre_bas{
-      margin-top: auto;
+  header {
+    justify-content: space-around;
+    margin-bottom: 10px;
+    border-bottom: 5px solid#f2f2f2;
+    height: auto;
+  }
+  .main {
+    padding: 30px;
+  }
+  .slogan {
+    padding: 30px;
+  }
+  .form_search {
+    justify-content: center;
+  }
+  .filt {
+    justify-content: center;
+  }
+  .titre_droite {
+    margin: 5px 5px;
+  }
+  .top-part {
+    flex-direction: column;
+  }
 
-    }
-    .contenu_footer {
+  .gauche {
+    width: 100%;
+    margin: 10px auto;
+  }
+  .container {
+    flex-direction: row;
+  }
+  .gauche .image {
+  }
+  .droite {
+    display: block;
+    width: 100%;
+    margin: 0;
+    background: none;
+  }
+  .droite .image {
+    margin: 10px auto;
+  }
+  .droite h2{
+    padding-top: 20px;
+  }
+  .bas {
+    padding: 0px 30px;
+  }
+  #titre_bas {
+    margin-top: auto;
+  }
+  .contenu_footer {
     padding: 0px 10px;
     border-top: 3px solid;
     width: 120%;
-    }
+    font-size: 12px;
   }
+}
 /* -----------------format mobile------------------------------------------------------- */
 @media (max-width: 600px) {
   header {
